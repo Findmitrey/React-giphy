@@ -1,0 +1,12 @@
+img {
+    
+    background: #e85a88;
+    background: #e85a88 url("../../preloader.svg") center no-repeat;
+
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,19 @@
+.modal_close {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  font-size: 22px;
+  color: transparentize(black, 0.6);
+  transition: color 200ms, transform 500ms;
+}
+.modal_close:focus,
+.modal_close:hover {
+  cursor: pointer;
+  color: black;
+  transform: rotate(360deg);
+}
+
+.modal__title h2 {
+  margin: 4px 0;
+  text-align: center;
+}
