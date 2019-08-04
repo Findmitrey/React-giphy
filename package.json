@@ -1,19 +1,23 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://findmitrey.github.io/React_website_giphy",
+  "private": false,
+  "homepage": "https://findmitrey.github.io/React_website_giphy/",
   "dependencies": {
+    "gh-pages": "^2.1.0",
     "memoize-one": "^5.0.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-stonecutter": "^0.3.10"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

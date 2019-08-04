@@ -25,13 +25,6 @@ class Search extends React.Component {
           onInput={this.handleChange}
           required
         />
-        {/* <button
-          className="search__btn"
-          onClick={this.handleChange}
-          type="button"
-        >
-          OK
-        </button> */}
       </div>
     );
   }

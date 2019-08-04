@@ -108,7 +108,6 @@ class Gif extends React.Component {
     this.props.onClickImg(this.state.data[index]);
   }
   render() {
-    console.log(this.state.data);
     return (
       <div className="collection">
         <Grid
