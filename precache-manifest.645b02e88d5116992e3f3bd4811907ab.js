@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06cfa416d0b93472b29911964d4f3bb4",
+    "revision": "353422806129a707e07771077b204857",
     "url": "/React-giphy/index.html"
   },
   {
-    "revision": "4b8302f5274d86b7baf0",
+    "revision": "958acf0425e515a518e4",
     "url": "/React-giphy/static/css/main.f374fcbf.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-giphy/static/js/2.d392e5c3.chunk.js"
   },
   {
-    "revision": "4b8302f5274d86b7baf0",
-    "url": "/React-giphy/static/js/main.57552d2a.chunk.js"
+    "revision": "958acf0425e515a518e4",
+    "url": "/React-giphy/static/js/main.45a64ee0.chunk.js"
   },
   {
     "revision": "4ab61e263cd15e385689",
