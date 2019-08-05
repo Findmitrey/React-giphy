@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://findmitrey.github.io/React-giphy/",
   "dependencies": {
     "gh-pages": "^2.0.1",
