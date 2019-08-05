@@ -6,15 +6,16 @@ class Search extends React.Component {
     super(props);
     this.handleChange = this.handleChange.bind(this);
   }
+  
   handleChange(e) {
     const inputValue = e.target.value;
     clearTimeout(this.timerId);
     
     this.timerId = setTimeout(()=>{
       this.props.onChange(inputValue);
-    }, 400);
-    
+    }, 800);
   }
+
   render() {
     return (
       <div className="search">

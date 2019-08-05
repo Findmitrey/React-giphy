@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom'
 import Search from './components/Search/Search'
 import Gif from './components/Gif/Gif'
 import Modal from './components/Modal/Modal';
-// import ModalWindow from "./components/ModalWindow/ModalWindow"
 
 class App extends React.Component {
     constructor(props){
       super(props);
-      this.searchClick = this.searchClick.bind(this);
+      this.onChange = this.onChange.bind(this);
       this.state = {
         url: 'api.giphy.com/v1/gifs/trending',
         api_key: 'cyzkcIRHhtGX0IFJ5f1u8cZArMiYoSyR',
@@ -19,7 +18,7 @@ class App extends React.Component {
       }
     }
 
-    searchClick(value){
+    onChange(value){
       const url = value ? 'api.giphy.com/v1/gifs/search' : 'api.giphy.com/v1/gifs/trending'
       this.setState( prevState =>{
         if(prevState.search !== value)
@@ -50,7 +49,7 @@ class App extends React.Component {
 
       return (
         <div className="container">
-          <Search onChange={this.searchClick}/>
+          <Search onChange={this.onChange}/>
           <h3 className="infoSearch">{this.info}</h3>
           <Gif url={this.state.url} 
                api_key={this.state.api_key} 
