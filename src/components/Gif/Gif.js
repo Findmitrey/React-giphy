@@ -46,7 +46,7 @@ class Gif extends React.Component {
 
     const limit = Math.floor(((widthWindow * heightWindow) / (widthImg * heightImg)) *displayСoefficient);
 
-    return `http://${this.props.url}?api_key=${this.props.api_key}&limit=${limit}&q=${this.props.search}`;
+    return `https://${this.props.url}?api_key=${this.props.api_key}&limit=${limit}&q=${this.props.search}`;
   }
 
   getData(url, isClear = false) {

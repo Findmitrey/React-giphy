@@ -2,9 +2,9 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://findmitrey.github.io/React_website_giphy/",
+  "homepage": "https://findmitrey.github.io/React-giphy/",
   "dependencies": {
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "memoize-one": "^5.0.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
